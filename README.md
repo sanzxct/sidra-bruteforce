@@ -26,14 +26,15 @@ pip install requests
 
 ## Penggunaan
 
-python sidra.py \
-  --url http://localhost/DVWA/vulnerabilities/brute/ \ (example in dvwa lab)
-  --method GET \
-  --userparam username \
-  --passparam password \
-  --userfile users.txt \
-  --passfile passwords.txt \
-  --success "Welcome to the password protected area"
+sidra --url "http://localhost/DVWA/vulnerabilities/brute/" \
+      --method GET \
+      --userparam username \
+      --passparam password \
+      --userfile users.txt \
+      --passfile passwords.txt \
+      --success "Welcome to the password protected area" \
+      --header "Cookie:"
+
 
 ## Note
 

@@ -4,17 +4,4 @@ user
 guest
 test
 administrator
-info
-mysql
-oracle
-manager
-administrator1
-admin123
-user1
-testuser
-guest123
-sysadmin
-operator
-support
-helpdesk
 
